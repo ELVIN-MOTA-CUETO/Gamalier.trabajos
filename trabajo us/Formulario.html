@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center>
+ <u><h1>FORMULARIO</h1></u>
+ <h2><a href="index.html">Home</a></h2>
+<form action="">
+
+<div><label for="text">Nombre</label>
+<input type="text" required maxlength="10" name="NOMBRE" placeholder="Escribe tu nombre"></div>
+<br>
+<div><label for="textarea" >Dirección</label>
+<textarea rows="1" required name="Dirección" placeholder="Escribe tu Dirección" id="" maxlength="50"></textarea>
+</div>
+<br>
+<div><label for="number">Edad</label>
+<input type="number" required name="Edad" min="1" max="100" placeholder="Edad"></div>
+<br>
+<div>
+  <label for="radio">género</label>
+<input type="radio" name="género" value="masculino">masculino
+<input type="radio" name="género" value="femenino">femenino
+</div>
+<br>
+<div>
+<label for="checkbox">pasatiempo</label>
+<input type="checkbox" name="pasatiempo" value="dibujar">dibujar
+<input type="checkbox" name="pasatiempo" value="jugar video juegos">jugar video juegos
+<input type="checkbox" name="pasatiempo" value="jugar deportes">jugar deportes
+</div>
+<br>
+<div>
+  <label for="select">carrera</label>
+<select name="carrera" required id="">
+
+<option value="">arquitecto</option>
+<option value="">ingeniero</option>
+<option value="">programador</option>
+<option value="">abogado</option>
+<option value="">electricista</option>
+</select>
+</div>
+<br>
+<div>
+  <label for="email">correo</label>
+  <input type="email" name="correo"  required="@" placeholder="Escribe tu correo">
+</div>
+<br>
+
+<input type="submit" value="Enviar" formtarget="Document">
+</form>
+</body>
+</center>
+</html>

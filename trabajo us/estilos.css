@@ -1,0 +1,23 @@
+h1 {
+color: blue;
+background-color: azure;
+padding: 12px;
+width: 450px;
+text-align: left;
+border: 1px solid black;
+}
+body{
+background-color: aqua;
+
+
+}
+table{
+    background-color: #5db1e6;
+    height: 30px;
+    width: 370px;
+}
+
+td{
+    background-color: azure;
+    padding: 10px;
+}
